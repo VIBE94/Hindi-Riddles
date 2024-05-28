@@ -1,7 +1,7 @@
 import fs from 'fs';
 import express from "express";
 
-
+const port = process.env.PORT || 3000;
 
 
 
@@ -44,7 +44,7 @@ function extractAnswer(text) {
 const app = express();
 app.use(express.static("public"));
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("listening");
 })
 
