@@ -1,0 +1,226 @@
+body {
+    background-image: url("/images/240_F_239377497_525D25jVLSq4jFue1gkU9fs1tmuOjKpe.jpg");
+    background-size: cover;  /* Ensures the image covers the entire background */
+    background-position: center center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-attachment: fixed;  /* Keeps the image fixed during scroll */
+}
+
+
+
+.riddle{
+    height: 450px;
+    width: 75%;
+    
+    margin-left: 18%;
+    margin-top:10%;
+    padding: 5px;
+    color: skyblue;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.hidden {
+    display: none;
+    color: red;
+}
+
+.answer {
+    margin-top: 10px;
+}
+
+.containe{
+    padding: 0;
+    margin: auto;
+    width: 200px;
+}
+
+.containe button{
+    margin-top: 30px;
+}
+
+
+
+
+
+.btn-43,
+.btn-43 *,
+.btn-43 :after,
+.btn-43 :before,
+.btn-43:after,
+.btn-43:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-43 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-43:disabled {
+  cursor: default;
+}
+.btn-43:-moz-focusring {
+  outline: auto;
+}
+.btn-43 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-43 [hidden] {
+  display: none;
+}
+.btn-43 {
+  border: 1px solid;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  padding: 20px 60px;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-43 .new,
+.btn-43 .old {
+  font-weight: 900;
+}
+.btn-43 .new {
+  background: #fff;
+  color: #000;
+  content: "";
+  display: grid;
+  inset: 0;
+  opacity: 0;
+  place-items: center;
+  position: absolute;
+  transform: rotate(90deg) translateY(100%);
+  transform-origin: bottom left;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-43:hover .new {
+  opacity: 1;
+  transform: rotate(0deg) translateY(0);
+}
+.btn-43 .old {
+  transition: opacity 0.2s;
+}
+.btn-43:hover .old {
+  opacity: 0;
+}
+
+
+
+
+
+
+.btn-52,
+.btn-52 *,
+.btn-52 :after,
+.btn-52 :before,
+.btn-52:after,
+.btn-52:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-52 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-52:disabled {
+  cursor: default;
+}
+.btn-52:-moz-focusring {
+  outline: auto;
+}
+.btn-52 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-52 [hidden] {
+  display: none;
+}
+.btn-52 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-52 .original {
+  background: #fff;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.2s;
+}
+.btn-52:hover .original {
+  transform: translateY(100%);
+}
+.btn-52 .letters {
+  display: inline-flex;
+}
+.btn-52 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.btn-52:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-52:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.btn-52:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.btn-52:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.btn-52:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+.btn-52:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+
+.buttonsplacing{
+    margin-top: 10%;
+}
+.another{
+    float: right;
+}
+
